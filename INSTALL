@@ -1,0 +1,9 @@
+Building MutualCoin
+
+See doc/readme-qt.rst for instructions on building MutualCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of MutualCoin.
+
+See doc/build-*.txt for instructions on building mutualcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of MutualCoin.
