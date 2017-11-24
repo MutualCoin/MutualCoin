@@ -4,15 +4,21 @@ Coin name: Mutual Coin
 Ticker: MUT
 Algorithm: Scrypt
 Type: POW / POS
-POW: 100 coins
+POW: 100 coins up till 1 million blocks
 POS: Upto 10,000% ocassionally and 5000% most of the time
-
-Max money: 1 billion
-Premine: 10 million
+Max money: 1 billion (1000000000)
+Premine: 1 percent (10 million)
+RPC Port: 25732
+P2P Port: 25731
+Seed nodes:
+mut1.mywire.org
+mut2.mywire.org
+addnode=45.77.140.69
+addnode=45.77.63.142
 
 Proof Of Work (POW): 
-100 coins up till 1-25000 Blocks
-(100 coins halving every 1 million  blocks after 25000 blocks)
+100 coins per block up till 1000000 Blocks (1 million Blocks)
+100 coins will be halving every 1 million blocks. That is, after 1 million blocks the POW mining reward will be 50 coins per block, after 2 million blocks it will be 25 coins per block, and so on.
 
 Proof Of Stake (POS):
 Proof of Stake will start after 25000 blocks
